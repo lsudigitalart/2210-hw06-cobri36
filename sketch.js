@@ -2,11 +2,11 @@ let imgWigg1, randomMike, imgMike, imgPlaceX, imgPlaceY, pressed, imgLakes, imgC
 
 function preload() {
   // Load your new images
-  imgWigg1 = loadImage("Wigg1.jpg");
-  imgWigg2 = loadImage("Wigg2.jpg");
+  imgWigg1 = loadImage("wigg1.jpg");
+  imgWigg2 = loadImage("wigg2.jpg");
   imgMike = loadImage("Mike.png");
-  imgLakes = loadImage("Lakes.gif");
-  imgCreek = loadImage("Creek.gif");
+  imgLakes = loadImage("lakes.gif");
+  imgCreek = loadImage("creek.gif");
   pressed = false;
 }
 
