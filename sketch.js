@@ -43,5 +43,5 @@ function mousePressed() {
   imgPlaceX = mouseX;
   imgPlaceY = mouseY;
   pressed = true;
-  print("prayin");
+  print("PLEASE");
 }
