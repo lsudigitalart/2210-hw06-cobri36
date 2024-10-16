@@ -1,3 +1,5 @@
+plz ignore this because i dunno what is wrong with my code and i gotta figure it out :(
+
 # Assignment 06
 
 ## Reading
