@@ -6,8 +6,8 @@ function preload() {
   imgWigg2 = loadImage("wigg2.jpg");
   imgMike = loadImage("Mike.png");
 
-  imgLakes = createImage("lakes.gif");
-  imgCreek = createImage("creek.gif");
+  imgLakes = createImg("lakes.gif");
+  imgCreek = createImg("creek.gif");
 
   imgLakes.hide();
   imgCreek.hide();
@@ -27,10 +27,7 @@ function setup() {
 function draw() {
   background(220);
   
-  // Display Wigg1 image when mouse is pressed
-  if (pressed) {
-    image(imgWigg1, imgPlaceX, imgPlaceY, 1268 / 4, 2016 / 4);  // Maintain aspect ratio for Wigg1
-  }
+
 
   // Randomize display of Mike or Wigg2
   if (randomMike) {
@@ -38,6 +35,13 @@ function draw() {
   } else {
     image(imgWigg2, 0, height / 2, 1512 / 4, 2016 / 4);  // Maintain aspect ratio for Wigg2
   }
+
+
+  // Display Wigg1 image when mouse is pressed
+  if (pressed) {
+    image(imgWigg1, imgPlaceX, imgPlaceY, 1268 / 4, 2016 / 4);  // Maintain aspect ratio for Wigg1
+  }
+
 }
 
 function mousePressed() {
