@@ -9,8 +9,8 @@ function preload() {
   imgLakes = createImg("lakes.gif");
   imgCreek = createImg("creek.gif");
 
-  imgLakes.hide();
-  imgCreek.hide();
+  imgLakes.show();
+  imgCreek.show();
 
   pressed = false; 
 }
