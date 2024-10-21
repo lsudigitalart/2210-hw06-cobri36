@@ -20,7 +20,7 @@ function setup() {
   randomMike = round(random());  // Randomize Mike
   print(randomMike);
 
-  imgLakes.position(0,0);
+  imgLakes.position(0,100);
   imgCreek.position(100,0);
 }
 
