@@ -12,7 +12,7 @@ function preload() {
   imgLakes.hide();
   imgCreek.hide();
 
-  pressed = false;
+  pressed = false; 
 }
 
 function setup() {
